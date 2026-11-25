@@ -55,3 +55,15 @@ Ver [`CONTRIBUTING.md`](CONTRIBUTING.md): cada participante hace un *fork*, crea
 ## Resultados
 
 _Cada participante añade aquí un resumen breve de su parte._
+### Parte 1 – Resumen general (Yifan Ma)
+
+Script: [`analisis/01_resumen_general.py`](analisis/01_resumen_general.py)
+
+- El dataset tiene **344 filas y 7 columnas** (3 categóricas y 4 numéricas).
+- Faltan **2 valores** en cada variable numérica y **11** en `sex`.
+- Valores más frecuentes: especie **Adelie** (152), isla **Biscoe** (168) y sexo **MALE** (168 de 333).
+- Medias: pico 43,9 mm de longitud y 17,2 mm de profundidad; aleta 200,9 mm; masa corporal 4.202 g (mín. 2.700 g, máx. 6.300 g).
+- Las distribuciones de la aleta y de la masa corporal parecen bimodales, lo que sugiere diferencias entre especies (ver partes 3–5).
+
+![Valores faltantes](figuras/01_valores_faltantes.png)
+![Histogramas](figuras/01_histogramas.png)
